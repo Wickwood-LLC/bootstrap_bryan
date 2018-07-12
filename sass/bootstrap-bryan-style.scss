@@ -275,13 +275,18 @@ tbody tr td {
 	}
 
 	.campaign-slogan-2 {
-	    color: #0D3C5E;
+	    color: #fff;
+	    background: #093b5f;
+	    padding: 5px;
+
+	    h3 {
+	    	margin: 0;
+	    }
 	}
 
 	.title-bryan h1 {
 		margin: 0;
 		font-size: 6vw;
-		line-height: 1.5;
 		margin: 0;
 		font-size: 9vw;
 
@@ -298,6 +303,35 @@ tbody tr td {
 
 	.panel-col-last #logo img {
 		transform: scaleX(-1);
+	}
+
+	.pane-page-site-name {
+		font-size: 17vw;
+		text-transform: uppercase;
+		line-height: 1;
+
+		a {
+			color: #681b33;
+
+			&:hover {
+				color: #681b33;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.pane-page-slogan {
+		color: #fff;
+		background: #093b5f;
+		padding: 5px;
+		text-transform: uppercase;
+		font-size: 3vw;
+		line-height: 1;
+		letter-spacing: 1vw;
+	}
+
+	.campaign-slogan-1 {
+		color: #681b33;
 	}
 }
 
