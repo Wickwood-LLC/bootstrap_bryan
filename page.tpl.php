@@ -84,23 +84,21 @@
 
 <!-- header -->
 <header id="header" role="banner" class="clearfix">
-    <div class="container">
 
-        <!-- #header-inside -->
-        <div id="header-inside" class="clearfix">
-            <div class="row">
-                <div class="col-md-12">
-                
-                <?php if ($page['header']) :?>
-                <?php print render($page['header']); ?>
-                <?php endif; ?>
+    <!-- #header-inside -->
+    <div id="header-inside" class="clearfix">
+        <div class="row">
+            <div class="col-md-12">
+            
+            <?php if ($page['header']) :?>
+            <?php print render($page['header']); ?>
+            <?php endif; ?>
 
-                </div>
             </div>
         </div>
-        <!-- EOF: #header-inside -->
-
     </div>
+    <!-- EOF: #header-inside -->
+
 </header>
 <!-- EOF: #header --> 
 

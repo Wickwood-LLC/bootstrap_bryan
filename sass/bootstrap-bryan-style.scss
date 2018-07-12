@@ -250,8 +250,50 @@ tbody tr td {
 }
 
 #mini-panel-header {
+	.center-wrapper {
+		display: flex;
+		align-items: center;
+
+		> .panel-col {
+			width: calc(38vw - 15px);
+			align-self: center;
+
+			.inside {
+				margin: 0;
+			}
+		}
+	}
+
+	.panel-col-first,
+	.panel-col-last {
+		width: 31vw;
+		align-self: center;
+
+		.inside {
+			margin: 0;
+		}
+	}
+
 	.campaign-slogan-2 {
 	    color: #0D3C5E;
+	}
+
+	.title-bryan h1 {
+		margin: 0;
+		font-size: 6vw;
+		line-height: 1.5;
+		margin: 0;
+		font-size: 9vw;
+
+		a {
+			color: #0D3C5E;
+			vertical-align: text-bottom;
+
+			&:hover {
+				color: #0D3C5E;
+				text-decoration: none;
+			}
+		}
 	}
 
 	.panel-col-last #logo img {
