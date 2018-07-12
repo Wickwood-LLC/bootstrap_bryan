@@ -249,6 +249,16 @@ tbody tr td {
     min-height: 130px;
 }
 
+#mini-panel-header {
+	.campaign-slogan-2 {
+	    color: #0D3C5E;
+	}
+
+	.panel-col-last #logo img {
+		transform: scaleX(-1);
+	}
+}
+
 #main-navigation {
     background-color: #fcfcfc;
     position: relative;
