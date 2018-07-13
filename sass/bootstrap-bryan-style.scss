@@ -279,8 +279,13 @@ tbody tr td {
 	    background: #093b5f;
 	    padding: 5px;
 
-	    h3 {
+	    .pane-page-slogan2 {
 	    	margin: 0;
+
+	    	&:before, &:after {
+	    		content: '\f24e';
+				font-family: FontAwesome;
+	    	}
 	    }
 	}
 
