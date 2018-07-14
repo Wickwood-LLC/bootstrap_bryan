@@ -249,6 +249,10 @@ tbody tr td {
     min-height: 130px;
 }
 
+#block-panels-mini-header {
+	padding: 0;
+}
+
 #mini-panel-header {
 	.center-wrapper {
 		display: flex;
@@ -697,6 +701,24 @@ ul.menu li.expanded ul {
 	display: table;
 	margin: auto;
 	float: none;
+}
+
+#superfish-1-toggle {
+	font-weight: 700;
+	line-height: 150%;
+	display: inline-block;
+	background: #681b33;
+	border: none;
+	padding: 15px 24px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	color: #ffffff;
+	margin: 0.5em 0;
+
+	&.sf-expanded {
+		margin-bottom: 0;
+		display: block;
+	}
 }
 
 /*superfish menu arrows*/
