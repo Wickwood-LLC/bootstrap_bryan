@@ -606,7 +606,7 @@ ul.menu li.expanded ul {
 #main-navigation ul.menu li a {
     text-transform: uppercase;
     font-weight: 700;
-    padding: 20px;
+    padding: 15px;
 }
 
 #main-navigation ul.menu ul li a,
@@ -689,6 +689,15 @@ ul.menu li.expanded ul {
     border-left: none!important;
 }
 
+#block-superfish-1 {
+	text-align: center;
+}
+
+#superfish-1 {
+	display: table;
+	margin: auto;
+	float: none;
+}
 
 /*superfish menu arrows*/
 
