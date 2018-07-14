@@ -707,7 +707,7 @@ ul.menu li.expanded ul {
 	font-weight: 700;
 	line-height: 150%;
 	display: inline-block;
-	background: #681b33;
+	background: #093b5e;
 	border: none;
 	padding: 15px 24px;
 	text-transform: uppercase;
@@ -717,13 +717,13 @@ ul.menu li.expanded ul {
 
 	&:hover {
 		text-decoration: none;
-		background: #751836;
+		background: #1a72af;
 	}
 
 	&.sf-expanded {
 		margin-bottom: 0;
 		display: block;
-		background: #751836;
+		background: #1a72af;
 		border-radius: 3px 3px 0 0;
 	}
 }
@@ -739,7 +739,7 @@ ul.menu li.expanded ul {
 		}
 
 		&:hover {
-			background: #093b5e;
+			background: #681b33;
 
 			a {
 				color: white;

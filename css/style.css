@@ -667,7 +667,7 @@ ul.menu li.expanded ul {
   font-weight: 700;
   line-height: 150%;
   display: inline-block;
-  background: #681b33;
+  background: #093b5e;
   border: none;
   padding: 15px 24px;
   text-transform: uppercase;
@@ -677,12 +677,12 @@ ul.menu li.expanded ul {
   /* line 718, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
   #superfish-1-toggle:hover {
     text-decoration: none;
-    background: #751836; }
+    background: #1a72af; }
   /* line 723, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
   #superfish-1-toggle.sf-expanded {
     margin-bottom: 0;
     display: block;
-    background: #751836;
+    background: #1a72af;
     border-radius: 3px 3px 0 0; }
 
 /* line 731, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
@@ -695,7 +695,7 @@ ul.menu li.expanded ul {
     background: #e9eaec; }
   /* line 741, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
   #main-navigation #superfish-1-accordion li:hover {
-    background: #093b5e; }
+    background: #681b33; }
     /* line 744, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
     #main-navigation #superfish-1-accordion li:hover a {
       color: white; }
