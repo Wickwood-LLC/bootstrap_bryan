@@ -733,15 +733,21 @@ ul.menu li.expanded ul {
 	border: 1px solid #ddd;
 	border-top: 0;
 
-	li.even {
-	    background: #e9eaec;
-	}
+	li {
+		&.even {
+		    background: #e9eaec;
+		}
 
-	li:hover {
-		background: #093b5e;
+		&:hover {
+			background: #093b5e;
+
+			a {
+				color: white;
+			}
+		}
 
 		a {
-			color: white;
+			color: #333;
 		}
 	}
 }
