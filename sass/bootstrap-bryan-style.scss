@@ -1835,3 +1835,30 @@ textarea {
 .page-node-edit .vertical-tabs li {
     list-style: none;
 }
+
+.pane-widgets-s-socialmedia-share-default {
+	text-align: center;
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.widgets-element {
+		display: inline-block;
+		margin: 2.5px;
+	}
+}
+
+.front .field-name-field-basic-image-image img {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #d8d8d8;
+	border-width: 3px;
+}
+
+.field-name-field-featured-image img {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #d8d8d8;
+	border-width: 3px;
+}

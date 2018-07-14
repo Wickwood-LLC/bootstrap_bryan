@@ -1677,4 +1677,29 @@ textarea {
 /* line 1835, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .page-node-edit .vertical-tabs li {
   list-style: none; }
+
+/* line 1839, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+.pane-widgets-s-socialmedia-share-default {
+  text-align: center; }
+  /* line 1842, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+  .pane-widgets-s-socialmedia-share-default h2 {
+    font-size: 20px; }
+  /* line 1846, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+  .pane-widgets-s-socialmedia-share-default .widgets-element {
+    display: inline-block;
+    margin: 2.5px; }
+
+/* line 1852, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+.front .field-name-field-basic-image-image img {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 3px; }
+
+/* line 1859, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+.field-name-field-featured-image img {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 3px; }
 /*# sourceMappingURL=style.css.map */
