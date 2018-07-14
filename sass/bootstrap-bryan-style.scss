@@ -715,9 +715,15 @@ ul.menu li.expanded ul {
 	color: #ffffff;
 	margin: 0.5em 0;
 
+	&:hover {
+		text-decoration: none;
+		background: #751836;
+	}
+
 	&.sf-expanded {
 		margin-bottom: 0;
 		display: block;
+		background: #751836;
 	}
 }
 
