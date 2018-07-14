@@ -724,6 +724,25 @@ ul.menu li.expanded ul {
 		margin-bottom: 0;
 		display: block;
 		background: #751836;
+		border-radius: 3px 3px 0 0;
+	}
+}
+
+#main-navigation #superfish-1-accordion {
+	margin-bottom: 0.5em;
+	border: 1px solid #ddd;
+	border-top: 0;
+
+	li.even {
+	    background: #e9eaec;
+	}
+
+	li:hover {
+		background: #093b5e;
+
+		a {
+			color: white;
+		}
 	}
 }
 
