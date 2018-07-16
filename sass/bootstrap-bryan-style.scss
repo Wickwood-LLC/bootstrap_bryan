@@ -1235,6 +1235,7 @@ ul.links li {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
+    margin-bottom: 15px;
 }
 
 .breadcrumb>li {
@@ -1899,7 +1900,7 @@ textarea {
 .pane-widgets-s-socialmedia-share-default {
 	text-align: center;
 
-	h2 {
+	h2, h3 {
 		font-size: 20px;
 	}
 
