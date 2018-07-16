@@ -161,7 +161,10 @@ function bootstrap_bryan_preprocess_block(&$variables) {
 function bootstrap_bryan_breadcrumb($variables) {
 	$breadcrumb = $variables['breadcrumb'];
 
-	if (!empty($breadcrumb)) {
+	if ((count($variables['breadcrumb']) > 1) && (!empty($breadcrumb))) {  // Only display the breadcrumb if there are more than one items in the trail
+	  // Provide a navigational heading to give context for breadcrumb links to
+	  // screen-reader users. Make the heading invisible with .element-invisible.
+
 		$breadcrumb[] = drupal_get_title();
 		$breadcrumbs = '<ol class="breadcrumb">';
 
@@ -172,6 +175,7 @@ function bootstrap_bryan_breadcrumb($variables) {
 		$breadcrumbs .= '</ol>';
 
 		return $breadcrumbs;
+
 	}
 }
 
