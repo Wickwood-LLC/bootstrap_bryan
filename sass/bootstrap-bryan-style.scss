@@ -748,6 +748,16 @@ ul.menu li.expanded ul {
 	display: table;
 	margin: auto;
 	float: none;
+
+	li a {
+		font-size: 1.5vw;
+		padding: 15px 10px;
+		color: #777;
+
+		@include breakpoint(1200px){
+			font-size: 18px;
+		}
+	}
 }
 
 #superfish-1-toggle {
