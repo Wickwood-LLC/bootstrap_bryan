@@ -294,7 +294,9 @@ tbody tr td {
 
 	    .pane-page-slogan2 {
 	    	margin: 0;
+	    	text-transform: uppercase;
 	    	font-size: 3vw;
+	    	line-height: 1;
 	    	letter-spacing: 1vw;
 
 	    	&:before, &:after {
