@@ -1121,28 +1121,36 @@ input[type="button"]:hover,
 .nav-tabs {
   margin: 25px 0 15px; }
 
+/* line 1208, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+ul.primary {
+  white-space: normal; }
+  /* line 1211, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+  ul.primary li {
+    display: inline-block;
+    margin-top: 5px; }
+
 /*accordion*/
-/* line 1211, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1220, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .panel-group {
   margin: 25px 0; }
 
-/* line 1215, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1224, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .panel-heading a:hover {
   text-decoration: none; }
 
 /* Drupal system links */
-/* line 1222, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1231, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 ul.links {
   padding: 0;
   margin: 0;
   list-style-position: inside; }
 
-/* line 1228, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1237, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 ul.links li {
   margin: 0; }
 
 /* Breadcrumb */
-/* line 1235, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1244, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .breadcrumb {
   background-color: #fcfcfc;
   border: 1px solid #eaeaea;
@@ -1151,22 +1159,22 @@ ul.links li {
   border-radius: 6px;
   margin-bottom: 15px; }
 
-/* line 1246, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1255, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .breadcrumb > li {
   margin: 0 2px 0 0;
   display: inline; }
 
 /* Search block */
-/* line 1254, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1263, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #header-top #block-search-form {
   margin: 0;
   float: right; }
 
-/* line 1259, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1268, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #header-top #block-search-form .form-item {
   margin: 0; }
 
-/* line 1263, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1272, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #header-top #block-search-form input.form-text {
   border: none;
   padding: 15px 40px 15px 15px;
@@ -1176,13 +1184,13 @@ ul.links li {
   -webkit-appearance: none;
   min-height: 52px; }
 
-/* line 1275, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1284, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #header-top #block-search-form input.form-text:focus {
   width: 240px;
   background-color: #444;
   color: #fff; }
 
-/* line 1281, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1290, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-search-form .form-actions,
 .sidebar-search-block .form-actions {
   position: absolute;
@@ -1191,12 +1199,12 @@ ul.links li {
   color: #999;
   font-size: 16px; }
 
-/* line 1290, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1299, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .logged-in #block-search-form .form-actions,
 .logged-in .sidebar-search-block .form-actions {
   right: 10px; }
 
-/* line 1295, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1304, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-search-form .form-actions:after,
 .sidebar-search-block .form-actions:after {
   font-family: 'Glyphicons Halflings';
@@ -1206,7 +1214,7 @@ ul.links li {
   left: 0;
   z-index: 0; }
 
-/* line 1305, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1314, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-search-form input.form-submit,
 .sidebar-search-block input.form-submit {
   background-color: transparent;
@@ -1217,7 +1225,7 @@ ul.links li {
   margin: 0;
   padding: 10px; }
 
-/* line 1316, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1325, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-search-form input.form-submit:focus,
 .sidebar-search-block input.form-submit:focus,
 .sidebar-search-block input.form-submit:hover {
@@ -1225,24 +1233,24 @@ ul.links li {
   background: transparent; }
 
 /*polls*/
-/* line 1326, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1335, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .poll .vote-form {
   text-align: left; }
 
-/* line 1330, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1339, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .poll .vote-form .choices {
   display: block; }
 
-/* line 1334, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1343, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .poll .bar .foreground {
   background-color: #444444; }
 
 /*call-to-action*/
-/* line 1341, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1350, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .call-to-action {
   text-align: center; }
 
-/* line 1345, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1354, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .call-to-action .lead {
   font-size: 32px;
   font-weight: 700;
@@ -1250,11 +1258,11 @@ ul.links li {
   margin-bottom: 10px;
   text-transform: uppercase; }
 
-/* line 1353, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1362, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .call-to-action p {
   margin: 0 0 30px; }
 
-/* line 1357, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1366, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .call-to-action .btn {
   color: #fff;
   font-size: 20px;
@@ -1264,51 +1272,51 @@ ul.links li {
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25); }
 
-/* line 1370, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1379, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .call-to-action .btn:hover {
   opacity: 0.90;
   filter: alpha(opacity=90); }
 
-/* line 1375, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1384, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .call-to-action .btn:active {
   -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.5); }
 
 /*Recent Content block*/
-/* line 1384, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1393, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent .node-title a {
   color: #444444;
   font-size: 16px;
   font-weight: 700; }
 
-/* line 1390, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1399, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #bottom-content .node-title a {
   color: #ffffff; }
 
-/* line 1394, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1403, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #pre-header .node-title a {
   color: #aaaaaa; }
 
-/* line 1398, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1407, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent .node-title a:hover {
   text-decoration: none; }
 
-/* line 1402, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1411, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent .node-author {
   margin: 5px 0; }
 
-/* line 1406, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1415, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent table {
   border: none; }
 
-/* line 1410, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1419, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent tr.even,
 #block-node-recent tr.odd {
   border-bottom: 1px dashed #ddd;
   margin-bottom: 0;
   padding: 15px 0; }
 
-/* line 1417, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1426, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent tbody th,
 #block-node-recent tbody td {
   padding: 8px 8px 8px 0;
@@ -1317,17 +1325,17 @@ ul.links li {
   border: none;
   font-size: 13px; }
 
-/* line 1426, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1435, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent tbody tr:first-child th,
 #block-node-recent tbody tr:first-child td {
   padding-top: 0; }
 
-/* line 1431, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1440, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-node-recent tbody tr:last-child {
   border-bottom: none; }
 
 /*highlighted blocks*/
-/* line 1438, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1447, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .highlighted-block,
 #block-user-login,
 #block-poll-recent {
@@ -1335,12 +1343,12 @@ ul.links li {
   padding: 25px;
   border-radius: 6px; }
 
-/* line 1448, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1457, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .highlighted-block-inside {
   padding: 0 25px 25px 25px;
   text-align: center; }
 
-/* line 1453, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1462, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .highlighted-block .btn {
   background-color: #444;
   color: #fff;
@@ -1350,15 +1358,15 @@ ul.links li {
   text-align: center;
   border-radius: 4px; }
 
-/* line 1465, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1474, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .highlighted-block.nopadding {
   padding: 0; }
 
-/* line 1469, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1478, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .highlighted-block .title-sep {
   margin: 0px 0 40px 0; }
 
-/* line 1473, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1482, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .light,
 #block-user-login,
 #block-poll-recent {
@@ -1366,45 +1374,45 @@ ul.links li {
   color: #333;
   border: 1px solid #eaeaea; }
 
-/* line 1481, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1490, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .dark {
   background-color: #333;
   color: #ccc;
   padding: 30px 20px 0;
   text-align: center; }
 
-/* line 1488, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1497, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .dark h3 {
   color: #ffffff;
   margin: 0 0 20px 0; }
 
-/* line 1493, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1502, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .dark input[type="submit"] {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0; }
 
-/* line 1499, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1508, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .dark input[type="submit"]:hover {
   opacity: 0.90;
   filter: alpha(opacity=90); }
 
-/* line 1504, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1513, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .dark .small {
   color: #999;
   font-size: 13px; }
 
-/* line 1509, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1518, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #block-user-login {
   padding: 5px 25px 0 25px;
   margin: 0 0 20px 0; }
 
 /*tags cloud*/
-/* line 1517, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1526, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .tag {
   display: inline-block; }
 
-/* line 1521, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1530, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .tag a {
   background-color: #444;
   color: #fff;
@@ -1418,13 +1426,13 @@ ul.links li {
   position: relative;
   display: block; }
 
-/* line 1537, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1546, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .tag a:hover {
   color: #fff;
   text-decoration: none; }
 
 /* Drupal status messages */
-/* line 1545, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1554, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages {
   padding: 15px 15px 15px 50px;
   margin-bottom: 20px;
@@ -1432,59 +1440,59 @@ div.messages {
   border-radius: 4px;
   background-position: 13px 15px; }
 
-/* line 1553, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1562, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages a {
   font-weight: bold; }
 
-/* line 1557, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1566, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages.status {
   color: #468847;
   background-color: #dff0d8;
   border-color: #d6e9c6; }
 
-/* line 1563, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1572, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages.status a {
   color: #356635; }
 
-/* line 1567, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1576, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages.error {
   color: #b94a48;
   background-color: #f2dede;
   border-color: #ebccd1; }
 
-/* line 1573, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1582, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages.error a {
   color: #953b39; }
 
-/* line 1577, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1586, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages.warning {
   color: #c09853;
   background-color: #fcf8e3;
   border-color: #faebcc; }
 
-/* line 1583, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1592, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 div.messages.warning a {
   color: #a47e3c; }
 
 /*slideshow*/
-/* line 1590, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1599, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel .item {
   max-height: 520px; }
 
 /*slider fade effect*/
-/* line 1597, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1606, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition-property: opacity;
   transition-property: opacity; }
 
-/* line 1606, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1615, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel-fade .carousel-inner .active {
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 1611, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1620, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
@@ -1492,18 +1500,18 @@ div.messages.warning a {
   filter: alpha(opacity=0);
   z-index: 1; }
 
-/* line 1619, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1628, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 1625, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1634, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel-fade .carousel-control {
   z-index: 2; }
 
 /*control nav*/
-/* line 1632, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1641, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel ol.carousel-indicators {
   position: absolute;
   top: 20px;
@@ -1520,7 +1528,7 @@ div.messages.warning a {
   bottom: auto;
   right: 20px; }
 
-/* line 1649, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1658, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel ol.carousel-indicators li {
   margin: 0px;
   padding: 0;
@@ -1533,12 +1541,12 @@ div.messages.warning a {
   text-indent: -9999px;
   border-radius: 100%; }
 
-/* line 1664, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1673, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel ol.carousel-indicators li.active {
   background-color: #fcfcfc; }
 
 /*directional nav*/
-/* line 1671, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1680, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel .carousel-control {
   background-color: #fcfcfc;
   color: #444;
@@ -1560,20 +1568,20 @@ div.messages.warning a {
   background-image: none;
   outline: none; }
 
-/* line 1696, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1705, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel .carousel-control.right {
   right: 20px; }
 
-/* line 1700, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1709, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel .carousel-control.left {
   left: 20px; }
 
-/* line 1704, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1713, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel a.carousel-control:active,
 .carousel a.carousel-control:hover {
   background-color: #fcfcfc; }
 
-/* line 1709, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1718, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
   font-size: 40px;
@@ -1583,7 +1591,7 @@ div.messages.warning a {
   left: auto;
   width: 100%; }
 
-/* line 1719, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1728, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel:hover .carousel-control,
 .carousel:hover ol.carousel-indicators {
   -moz-opacity: 1;
@@ -1592,7 +1600,7 @@ div.messages.warning a {
   filter: alpha(opacity=100); }
 
 /*slider caption*/
-/* line 1730, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1739, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -1606,7 +1614,7 @@ div.messages.warning a {
   text-transform: uppercase;
   display: block; }
 
-/* line 1744, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1753, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .carousel .carousel-caption h4,
 .carousel .carousel-caption p {
   max-width: 1170px;
@@ -1614,30 +1622,30 @@ div.messages.warning a {
   display: block; }
 
 @media all and (max-width: 768px) {
-  /* line 1752, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+  /* line 1761, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
   .carousel .carousel-caption p {
     display: none; } }
 
 @media all and (max-width: 480px) {
-  /* line 1758, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+  /* line 1767, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
   .carousel .carousel-control,
   .carousel .carousel-caption {
     display: none; } }
 
 /*credits*/
-/* line 1767, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1776, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .credits {
   margin-bottom: 0;
   font-size: 0.9em; }
 
 /*toggle control*/
-/* line 1775, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1784, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .toggle-control {
   width: 100%;
   position: relative;
   z-index: 13; }
 
-/* line 1781, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1790, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .toggle-control a,
 .toggle-control a:hover {
   color: #fff;
@@ -1651,12 +1659,12 @@ div.messages.warning a {
   height: 52px; }
 
 /*google map*/
-/* line 1797, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1806, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .gm-style img {
   max-width: none; }
 
 /*scroll to top*/
-/* line 1804, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1813, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #toTop {
   position: fixed;
   border-radius: 3px;
@@ -1675,7 +1683,7 @@ div.messages.warning a {
   padding: 10px 0 0 2px;
   z-index: 14; }
 
-/* line 1825, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1834, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #toTop:hover {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -1683,40 +1691,40 @@ div.messages.warning a {
   transition: all 0.3s; }
 
 /*drupal primary links*/
-/* line 1838, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1847, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 ul.primary {
   margin: 15px 0 15px 0;
   padding-left: 40px; }
 
-/* line 1843, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1852, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 ul.primary,
 ul.primary li a,
 ul.primary li.active a {
   border-color: #eaeaea; }
 
-/* line 1849, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1858, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 ul.primary li.active a {
   border-bottom: 1px solid #fff; }
 
 /*drupal resets*/
-/* line 1856, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1865, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #toolbar {
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-/* line 1862, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1871, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #toolbar ul.menu {
   width: auto; }
 
-/* line 1866, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1875, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #toolbar ul.menu li {
   background: none; }
 
-/* line 1870, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1879, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .not-logged-in .block-forum .contextual-links-wrapper {
   display: none; }
 
-/* line 1874, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1883, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 a.contextual-links-trigger,
 #toolbar a,
 textarea {
@@ -1724,50 +1732,50 @@ textarea {
   transition: none; }
 
 /*admin theme style rules*/
-/* line 1887, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1896, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .page-node-edit .region-content {
   padding: 0 40px; }
 
-/* line 1891, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1900, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .page-node-edit .vertical-tabs {
   clear: both; }
 
-/* line 1895, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1904, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .page-node-edit .vertical-tabs,
 .page-node-edit .vertical-tabs ul.vertical-tabs-list,
 .page-node-edit .vertical-tabs ul.vertical-tabs-list li {
   border-color: #dfdfdf; }
 
-/* line 1901, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1910, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .page-node-edit .vertical-tabs li {
   list-style: none; }
 
-/* line 1905, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1914, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .pane-widgets-s-socialmedia-share-default {
   text-align: center; }
-  /* line 1908, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+  /* line 1917, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
   .pane-widgets-s-socialmedia-share-default h2, .pane-widgets-s-socialmedia-share-default h3 {
     font-size: 20px; }
-  /* line 1912, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+  /* line 1921, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
   .pane-widgets-s-socialmedia-share-default .pane-content > a {
     display: inline-block;
     margin: 0 2.5px; }
 
-/* line 1918, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1927, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .front .field-name-field-basic-image-image img {
   border-radius: 10px;
   border-style: solid;
   border-color: #d8d8d8;
   border-width: 3px; }
 
-/* line 1925, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1934, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .field-name-field-featured-image img {
   border-radius: 10px;
   border-style: solid;
   border-color: #d8d8d8;
   border-width: 3px; }
 
-/* line 1931, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1940, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .field-name-title-field h1 {
   margin-top: 0; }
 /*# sourceMappingURL=style.css.map */

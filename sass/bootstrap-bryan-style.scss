@@ -1205,6 +1205,15 @@ input[type="button"]:hover,
     margin: 25px 0 15px;
 }
 
+ul.primary {
+	white-space: normal;
+
+	li {
+		display: inline-block;
+		margin-top: 5px;
+	}
+}
+
 
 /*accordion*/
 
