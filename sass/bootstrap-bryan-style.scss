@@ -252,6 +252,10 @@ tbody tr td {
     padding: 0;
     text-align: center;
     min-height: 130px;
+
+    .col-md-12 {
+    	padding: 0;
+    }
 }
 
 #block-panels-mini-header {
