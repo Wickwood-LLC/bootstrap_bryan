@@ -702,18 +702,18 @@ ul.menu li.expanded ul {
   text-align: center; }
 
 /* line 747, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
-#superfish-1 {
+#main-navigation #superfish-1 {
   display: table;
   margin: auto;
   float: none; }
   /* line 752, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
-  #superfish-1 li a {
+  #main-navigation #superfish-1 li a {
     font-size: 1.5vw;
     padding: 15px 10px;
     color: #777; }
     @media (min-width: 1200px) {
       /* line 752, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
-      #superfish-1 li a {
+      #main-navigation #superfish-1 li a {
         font-size: 18px; } }
 
 /* line 763, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
