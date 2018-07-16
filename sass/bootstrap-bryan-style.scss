@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
 
 /* Reset unusual Firefox-on-Android default style, see https://github.com/necolas/normalize.css/issues/214*/
@@ -317,6 +318,11 @@ tbody tr td {
 				text-decoration: none;
 			}
 		}
+
+		@include breakpoint(1200px){
+			font-size: 100px;
+			letter-spacing: 15px;
+		}
 	}
 
 	.panel-col-last #logo img {
@@ -337,6 +343,11 @@ tbody tr td {
 				text-decoration: none;
 			}
 		}
+
+		@include breakpoint(1200px){
+			font-size: 155px;
+			letter-spacing: -9.6px;
+		}
 	}
 
 	.pane-page-slogan {
@@ -347,6 +358,11 @@ tbody tr td {
 		font-size: 3vw;
 		line-height: 1;
 		letter-spacing: 1vw;
+
+		@include breakpoint(1200px){
+			font-size: 36px;
+			letter-spacing: 12px;
+		}
 	}
 
 	.campaign-slogan-1 {
@@ -355,6 +371,11 @@ tbody tr td {
 		h1 {
 			margin: 0;
 			font-size: 7vw;
+		}
+
+		@include breakpoint(1200px){
+			font-size: 84px;
+			letter-spacing: normal;
 		}
 	}
 }
