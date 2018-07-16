@@ -313,8 +313,8 @@ tbody tr td {
 	    	}
 
 	    	@include breakpoint(1200px){
-	    		font-size: 84px;
-	    		letter-spacing: normal;
+	    		font-size: 36px;
+				letter-spacing: 12px;
 	    	}
 	    }
 	}

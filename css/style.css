@@ -306,8 +306,8 @@ tbody tr td {
     @media (min-width: 1200px) {
       /* line 303, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
       #mini-panel-header .campaign-slogan-2 .pane-page-slogan2 {
-        font-size: 84px;
-        letter-spacing: normal; } }
+        font-size: 36px;
+        letter-spacing: 12px; } }
 
 /* line 322, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #mini-panel-header .title-bryan h1 {
