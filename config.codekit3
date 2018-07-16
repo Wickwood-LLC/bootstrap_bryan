@@ -565,6 +565,16 @@
 		"oAP": "\/color\/color.inc",
 		"oF": 0
 		},
+	"\/color\/colors-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/color\/colors-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/color\/colors.css": {
 		"aP": 1,
 		"bl": 0,
