@@ -371,11 +371,11 @@ tbody tr td {
 		h1 {
 			margin: 0;
 			font-size: 7vw;
-		}
 
-		@include breakpoint(1200px){
-			font-size: 84px;
-			letter-spacing: normal;
+			@include breakpoint(1200px){
+				font-size: 84px;
+				letter-spacing: normal;
+			}
 		}
 	}
 }

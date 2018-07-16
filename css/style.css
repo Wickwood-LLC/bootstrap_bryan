@@ -360,11 +360,11 @@ tbody tr td {
   #mini-panel-header .campaign-slogan-1 h1 {
     margin: 0;
     font-size: 7vw; }
-  @media (min-width: 1200px) {
-    /* line 368, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
-    #mini-panel-header .campaign-slogan-1 {
-      font-size: 84px;
-      letter-spacing: normal; } }
+    @media (min-width: 1200px) {
+      /* line 371, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+      #mini-panel-header .campaign-slogan-1 h1 {
+        font-size: 84px;
+        letter-spacing: normal; } }
 
 /* line 383, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 #main-navigation {
