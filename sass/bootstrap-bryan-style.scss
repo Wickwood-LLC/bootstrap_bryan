@@ -1169,10 +1169,13 @@ input[type="checkbox"] {
 
 /*buttons*/
 
+.form-actions {
+	text-align: center;
+}
+
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-    margin: 5px 5px 10px 0;
     border: none;
     box-shadow: none;
     color: #fff;
@@ -1182,8 +1185,8 @@ input[type="button"] {
     -moz-border-radius: 3px;
     border-radius: 3px;
     color: #ffffff;
-    margin: auto;
-    display: block;
+    margin: 5px;
+    display: inline-block;
 }
 
 input[type="submit"]:hover,
