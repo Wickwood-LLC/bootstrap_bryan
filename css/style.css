@@ -1743,9 +1743,9 @@ textarea {
   .pane-widgets-s-socialmedia-share-default h2 {
     font-size: 20px; }
   /* line 1906, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
-  .pane-widgets-s-socialmedia-share-default .widgets-element {
+  .pane-widgets-s-socialmedia-share-default .pane-content > a {
     display: inline-block;
-    margin: 2.5px; }
+    margin: 0 2.5px; }
 
 /* line 1912, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .front .field-name-field-basic-image-image img {

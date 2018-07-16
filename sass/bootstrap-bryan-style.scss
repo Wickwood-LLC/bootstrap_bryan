@@ -1903,9 +1903,9 @@ textarea {
 		font-size: 20px;
 	}
 
-	.widgets-element {
-		display: inline-block;
-		margin: 2.5px;
+	.pane-content > a {
+	    display: inline-block;
+	    margin: 0 2.5px;
 	}
 }
 
