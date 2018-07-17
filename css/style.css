@@ -1801,5 +1801,14 @@ textarea {
 
 /* line 1964, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .field-name-title-field h1 {
-  margin-top: 0; }
+  margin-top: 0;
+  font-size: 24px; }
+  @media (min-width: 718px) and (max-width: 1200px) {
+    /* line 1964, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+    .field-name-title-field h1 {
+      font-size: 3vw; } }
+  @media (min-width: 1201px) {
+    /* line 1964, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+    .field-name-title-field h1 {
+      font-size: 36px; } }
 /*# sourceMappingURL=style.css.map */

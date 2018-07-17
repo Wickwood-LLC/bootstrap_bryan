@@ -1963,4 +1963,12 @@ textarea {
 }
 .field-name-title-field h1 {
 	margin-top: 0;
+	font-size: 24px;
+
+	@include breakpoint(718px 1200px){
+		font-size: 3vw;
+	}
+	@include breakpoint(1201px){
+		font-size: 36px;
+	}
 }
