@@ -98,6 +98,10 @@ body.maintenance-page {
 	width: 100vw;
 	height: 100vh;
 
+	a {
+		text-decoration: none;
+	}
+
 	#content {
 		text-align: center;
 	}
