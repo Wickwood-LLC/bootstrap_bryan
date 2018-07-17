@@ -47,7 +47,7 @@
                                 <div class="inside">
                                     <div class="">
                                         <div class="panel-pane pane-page-logo">
-                                          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> </a>
+                                          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"> <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@
                                 <div class="inside">
                                     <div class="">
                                         <div class="panel-pane pane-page-logo">
-                                            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> </a>
+                                            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"> <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> </a>
                                         </div>
                                     </div>
                                 </div>
