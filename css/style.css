@@ -1761,21 +1761,45 @@ textarea {
     display: inline-block;
     margin: 0 2.5px; }
 
-/* line 1927, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1929, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+.front #block-system-main h3 {
+  font-size: 16px; }
+  @media (min-width: 718px) and (max-width: 1200px) {
+    /* line 1929, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+    .front #block-system-main h3 {
+      font-size: 2vw; } }
+  @media (min-width: 1201px) {
+    /* line 1929, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+    .front #block-system-main h3 {
+      font-size: 24px; } }
+
+/* line 1939, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+.front #block-system-main h4 {
+  font-size: 14px; }
+  @media (min-width: 718px) and (max-width: 1200px) {
+    /* line 1939, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+    .front #block-system-main h4 {
+      font-size: 1.6vw; } }
+  @media (min-width: 1201px) {
+    /* line 1939, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+    .front #block-system-main h4 {
+      font-size: 20px; } }
+
+/* line 1950, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .front .field-name-field-basic-image-image img {
   border-radius: 10px;
   border-style: solid;
   border-color: #d8d8d8;
   border-width: 3px; }
 
-/* line 1934, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1958, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .field-name-field-featured-image img {
   border-radius: 10px;
   border-style: solid;
   border-color: #d8d8d8;
   border-width: 3px; }
 
-/* line 1940, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
+/* line 1964, Users/palagpatski/Documents/WEB DEV/bootstrap_bryan/sass/bootstrap-bryan-style.scss */
 .field-name-title-field h1 {
   margin-top: 0; }
 /*# sourceMappingURL=style.css.map */

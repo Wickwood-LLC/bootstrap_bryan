@@ -1924,11 +1924,35 @@ textarea {
 	}
 }
 
-.front .field-name-field-basic-image-image img {
-	border-radius: 10px;
-	border-style: solid;
-	border-color: #d8d8d8;
-	border-width: 3px;
+.front {
+	#block-system-main {
+		h3 {
+			font-size: 16px;
+
+			@include breakpoint(718px 1200px){
+				font-size: 2vw;
+			}
+			@include breakpoint(1201px){
+				font-size: 24px;
+			}
+		}
+		h4 {
+			font-size: 14px;
+
+			@include breakpoint(718px 1200px){
+				font-size: 1.6vw;
+			}
+			@include breakpoint(1201px){
+				font-size: 20px;
+			}
+		}
+	}
+	.field-name-field-basic-image-image img {
+		border-radius: 10px;
+		border-style: solid;
+		border-color: #d8d8d8;
+		border-width: 3px;
+	}
 }
 
 .field-name-field-featured-image img {
