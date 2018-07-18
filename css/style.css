@@ -1603,14 +1603,14 @@ textarea {
     margin: 0; }
 
 .node-type-calendar-item .street-block {
-  display: inline-block;
+  display: inline;
   margin-right: 0.5em; }
 
 .node-type-calendar-item .thoroughfare {
   display: inline-block; }
 
 .node-type-calendar-item .locality-block {
-  display: inline-block; }
+  display: inline; }
 
 .node-type-calendar-item .date-display-range {
   display: inline-block; }
