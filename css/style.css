@@ -1559,7 +1559,8 @@ textarea {
       font-size: 36px; } }
 
 .node-type-calendar-item .field.field-name-field-basic-file-file {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 1em; }
   .node-type-calendar-item .field.field-name-field-basic-file-file img {
     display: inline-block;
     vertical-align: baseline; }
@@ -1571,4 +1572,27 @@ textarea {
   text-align: center;
   border: 3px solid #365c8b;
   padding: 1em; }
+
+.node-type-calendar-item .field-name-field-donation-table .wt-two-col {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 1em 0; }
+
+.node-type-calendar-item .field-name-field-donation-table .wt-col-md-6 {
+  min-height: 0;
+  min-width: 200px;
+  padding: 0;
+  width: auto;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%; }
+
+.node-type-calendar-item .pane-bundle-map {
+  text-align: center; }
 /*# sourceMappingURL=style.css.map */

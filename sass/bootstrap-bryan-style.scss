@@ -2042,6 +2042,7 @@ textarea {
 .node-type-calendar-item {
 	.field.field-name-field-basic-file-file {
 		text-align: center;
+		margin-bottom: 1em;
 
 		img {
 			display: inline-block;
@@ -2056,5 +2057,25 @@ textarea {
 		text-align: center;
 		border: 3px solid #365c8b;
 		padding: 1em;
+	}
+
+	.field-name-field-donation-table {
+		.wt-two-col {
+			text-align: center;
+			display: flex;
+			flex-flow: row wrap;
+			margin: 1em 0;
+		}
+		.wt-col-md-6 {
+			min-height: 0;
+			min-width: 200px;
+			padding: 0;
+			width: auto;
+			flex: 50%;
+		}
+	}
+
+	.pane-bundle-map {
+		text-align: center;
 	}
 }
