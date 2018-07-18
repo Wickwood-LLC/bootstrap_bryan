@@ -42,7 +42,7 @@
           $header.addClass('sticky-header');
 
           $('body').css({
-            'margin-top': headerHeight + topSpacing,
+            'margin-top': headerHeight + topSpacing + ' !important',
           });
         }
         else {
@@ -80,7 +80,7 @@
           $header.addClass('sticky-header');
 
           $('body').css({
-            'margin-top': headerHeight + topSpacing,
+            'margin-top': headerHeight + topSpacing + ' !important',
           })
         }
         else if (currentPosition >= 0) {
