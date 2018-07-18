@@ -1563,4 +1563,12 @@ textarea {
   .node-type-calendar-item .field.field-name-field-basic-file-file img {
     display: inline-block;
     vertical-align: baseline; }
+
+.node-type-calendar-item #mini-panel-date_time_and_place {
+  background: #003764;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #365c8b;
+  padding: 1em; }
 /*# sourceMappingURL=style.css.map */
