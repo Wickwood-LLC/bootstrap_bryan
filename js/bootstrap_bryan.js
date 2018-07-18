@@ -18,6 +18,7 @@
 
       function sticky() {
         headerWidth = $header.width();          // gets the width of the container
+        headerHeight = $header.height();        // gets the height of our header
         $header.css({
           // width: "initial",
         });

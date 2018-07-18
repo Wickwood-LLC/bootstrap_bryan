@@ -712,19 +712,37 @@ ul.menu li.expanded ul {
   #header.sticky-header .panel-col-first,
   #header.sticky-header .panel-col-last {
     width: 17vw; }
+  #header.sticky-header .panel-col-last {
+    display: none; }
+    @media (min-width: 718px) {
+      #header.sticky-header .panel-col-last {
+        display: block; } }
   #header.sticky-header .title-bryan {
     display: inline-block; }
     #header.sticky-header .title-bryan h1 {
-      font-size: 48px;
+      font-size: 5vw;
       letter-spacing: normal;
       line-height: 1;
       text-indent: 0; }
+      @media (min-width: 718px) {
+        #header.sticky-header .title-bryan h1 {
+          font-size: 4vw; } }
+      @media (min-width: 1201px) {
+        #header.sticky-header .title-bryan h1 {
+          font-size: 48px; } }
   #header.sticky-header .pane-page-site-name {
     display: inline-block;
-    font-size: 48px;
+    font-size: 5vw;
     margin-left: 0.5em;
     text-indent: 0;
-    letter-spacing: normal; }
+    letter-spacing: normal;
+    line-height: 1; }
+    @media (min-width: 718px) {
+      #header.sticky-header .pane-page-site-name {
+        font-size: 4vw; } }
+    @media (min-width: 1201px) {
+      #header.sticky-header .pane-page-site-name {
+        font-size: 48px; } }
 
 /*superfish menu arrows*/
 #main-navigation .block-superfish ul.sf-menu > li > a.menuparent {
