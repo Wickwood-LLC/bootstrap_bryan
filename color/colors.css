@@ -23,8 +23,8 @@ a:hover,
 a:focus,
 ul.menu li a.active,
 ul.menu li a:hover,
-#main-navigation ul.menu li a.active,
-#main-navigation ul.menu li a:hover,
+#main-navigation ul#superfish-1 li a.active,
+#main-navigation ul#superfish-1 li a:hover,
 #forum thead a:hover,
 #block-node-recent .node-title a:hover {
     color: #E74C3C;
