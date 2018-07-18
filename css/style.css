@@ -631,18 +631,18 @@ ul.menu li.expanded ul {
 #block-superfish-1 {
   text-align: center; }
 
-#main-navigation #superfish-1 {
+#block-superfish-1 #superfish-1 {
   display: table;
   margin: auto;
   float: none; }
-  #main-navigation #superfish-1 li {
+  #block-superfish-1 #superfish-1 li {
     margin-right: 1vw; }
-    #main-navigation #superfish-1 li a {
+    #block-superfish-1 #superfish-1 li a {
       font-size: 1.3vw;
       padding: 15px 0;
       color: #777; }
       @media (min-width: 1200px) {
-        #main-navigation #superfish-1 li a {
+        #block-superfish-1 #superfish-1 li a {
           font-size: 18px; } }
 
 #superfish-1-toggle {
