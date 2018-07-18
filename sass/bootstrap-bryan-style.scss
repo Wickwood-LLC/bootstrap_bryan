@@ -2089,6 +2089,20 @@ textarea {
 		}
 	}
 
+	.street-block {
+		display: inline-block;
+		margin-right: 0.5em;
+	}
+	.thoroughfare {
+		display: inline-block;
+	}
+	.locality-block {
+		display: inline-block;
+	}
+	.date-display-range {
+		display: inline-block;
+	}
+
 	.pane-bundle-map {
 		text-align: center;
 	}

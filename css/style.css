@@ -1602,6 +1602,19 @@ textarea {
   .node-type-calendar-item .field-name-field-donation-table .wt-col-md-6 p {
     margin: 0; }
 
+.node-type-calendar-item .street-block {
+  display: inline-block;
+  margin-right: 0.5em; }
+
+.node-type-calendar-item .thoroughfare {
+  display: inline-block; }
+
+.node-type-calendar-item .locality-block {
+  display: inline-block; }
+
+.node-type-calendar-item .date-display-range {
+  display: inline-block; }
+
 .node-type-calendar-item .pane-bundle-map {
   text-align: center; }
 /*# sourceMappingURL=style.css.map */
