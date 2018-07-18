@@ -31,8 +31,8 @@
         currentPosition = stickyTop - windowTop + headerHeight;    // tells how far our target element is from where our screen is currently
         topSpacing = $('#admin-menu').height();
 
-        $('#header').css({
-          "margin-bottom": '0',
+        $('body').css({
+          "margin-top": '0',
         });
 
         // console.log('Distance from top of page: ' + stickyTop);
@@ -41,15 +41,15 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': headerHeight,
+          $('body').css({
+            'margin-top': headerHeight,
           });
         }
         else {
           $header.removeClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': '0',
+          $('body').css({
+            'margin-top': '0',
           });
         }
 
@@ -79,15 +79,15 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': headerHeight,
+          $('body').css({
+            'margin-top': headerHeight,
           })
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': '0',
+          $('body').css({
+            'margin-top': '0',
           })
         }
 
