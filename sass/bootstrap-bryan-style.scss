@@ -2030,6 +2030,11 @@ textarea {
 .field-name-title-field h1 {
 	margin-top: 0;
 	font-size: 24px;
+	text-align: center;
+
+	@include breakpoint(992px){
+		text-align: left;
+	}
 
 	@include breakpoint(718px 1200px){
 		font-size: 3vw;

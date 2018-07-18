@@ -1550,7 +1550,11 @@ textarea {
 
 .field-name-title-field h1 {
   margin-top: 0;
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: center; }
+  @media (min-width: 992px) {
+    .field-name-title-field h1 {
+      text-align: left; } }
   @media (min-width: 718px) and (max-width: 1200px) {
     .field-name-title-field h1 {
       font-size: 3vw; } }
