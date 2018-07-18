@@ -706,6 +706,25 @@ ul.menu li.expanded ul {
             box-sizing: border-box; }
   #header.sticky-header #mini-panel-header {
     width: 100%; }
+  #header.sticky-header .panel-col-top,
+  #header.sticky-header .panel-col-bottom {
+    display: none; }
+  #header.sticky-header .panel-col-first,
+  #header.sticky-header .panel-col-last {
+    width: 17vw; }
+  #header.sticky-header .title-bryan {
+    display: inline-block; }
+    #header.sticky-header .title-bryan h1 {
+      font-size: 48px;
+      letter-spacing: normal;
+      line-height: 1;
+      text-indent: 0; }
+  #header.sticky-header .pane-page-site-name {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 0.5em;
+    text-indent: 0;
+    letter-spacing: normal; }
 
 /*superfish menu arrows*/
 #main-navigation .block-superfish ul.sf-menu > li > a.menuparent {
