@@ -1557,4 +1557,10 @@ textarea {
   @media (min-width: 1201px) {
     .field-name-title-field h1 {
       font-size: 36px; } }
+
+.node-type-calendar-item .field.field-name-field-basic-file-file {
+  text-align: center; }
+  .node-type-calendar-item .field.field-name-field-basic-file-file img {
+    display: inline-block;
+    vertical-align: baseline; }
 /*# sourceMappingURL=style.css.map */
