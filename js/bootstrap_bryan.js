@@ -44,6 +44,8 @@
           $('#page').css({
             'margin-top': headerHeight + topSpacing,
           });
+
+          $(".pane-page-site-name").appendTo("#mini-panel-header .panel-col .inside > div"); // insert "Clenahan" after "Bryan"
         }
         else {
           $header.removeClass('sticky-header');
@@ -51,6 +53,8 @@
           $('#page').css({
             'margin-top': '0',
           });
+
+          $(".pane-page-site-name").prependTo("#mini-panel-header .panel-col-bottom .inside > div"); // return "Clenahan" to its original location
         }
 
         if ($('#admin-menu').length) {
@@ -58,11 +62,15 @@
             $header.css({
               top: topSpacing,
             });
+
+            $(".pane-page-site-name").appendTo("#mini-panel-header .panel-col .inside > div"); // insert "Clenahan" after "Bryan"
           }
           else {
             $header.css({
               top: '0',
             });
+
+            $(".pane-page-site-name").prependTo("#mini-panel-header .panel-col-bottom .inside > div"); // return "Clenahan" to its original location
           }
         }
 
@@ -82,6 +90,8 @@
           $('#page').css({
             'margin-top': headerHeight + topSpacing,
           })
+
+          $(".pane-page-site-name").appendTo("#mini-panel-header .panel-col .inside > div"); // insert "Clenahan" after "Bryan"
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
@@ -89,6 +99,8 @@
           $('#page').css({
             'margin-top': '0',
           })
+
+          $(".pane-page-site-name").prependTo("#mini-panel-header .panel-col-bottom .inside > div"); // return "Clenahan" to its original location
         }
 
         if ($('#admin-menu').length) {
@@ -96,11 +108,15 @@
             $header.css({
               top: topSpacing,
             });   //stick it at the top
+
+            $(".pane-page-site-name").appendTo("#mini-panel-header .panel-col .inside > div"); // insert "Clenahan" after "Bryan"
           }
           else {
             $header.css({
               top: '0',
             });
+
+            $(".pane-page-site-name").prependTo("#mini-panel-header .panel-col-bottom .inside > div"); // return "Clenahan" to its original location
           }
         }
 
