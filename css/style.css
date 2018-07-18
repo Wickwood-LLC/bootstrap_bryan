@@ -1592,6 +1592,8 @@ textarea {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%; }
+  .node-type-calendar-item .field-name-field-donation-table .wt-col-md-6 p {
+    margin: 0; }
 
 .node-type-calendar-item .pane-bundle-map {
   text-align: center; }
