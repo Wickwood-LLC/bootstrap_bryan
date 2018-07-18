@@ -141,11 +141,27 @@ h2 {
 }
 
 h3 {
-    font-size: 24px
+    font-size: 16px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 2vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 24px;
+    }
 }
 
 h4 {
-    font-size: 20px
+    font-size: 14px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 1.6vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 20px;
+    }
 }
 
 h5 {
