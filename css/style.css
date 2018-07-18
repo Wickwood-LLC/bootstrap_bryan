@@ -1513,7 +1513,8 @@ textarea {
   list-style: none; }
 
 .pane-widgets-s-socialmedia-share-default {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0.5em; }
   .pane-widgets-s-socialmedia-share-default h2, .pane-widgets-s-socialmedia-share-default h3 {
     font-size: 20px; }
   .pane-widgets-s-socialmedia-share-default .pane-content > a {
@@ -1521,7 +1522,8 @@ textarea {
     margin: 0 2.5px; }
 
 .front #block-system-main h3 {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-top: 0; }
   @media (min-width: 718px) and (max-width: 1200px) {
     .front #block-system-main h3 {
       font-size: 2vw; } }

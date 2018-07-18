@@ -1983,6 +1983,7 @@ textarea {
 
 .pane-widgets-s-socialmedia-share-default {
 	text-align: center;
+	margin-bottom: 0.5em;
 
 	h2, h3 {
 		font-size: 20px;
@@ -1998,6 +1999,7 @@ textarea {
 	#block-system-main {
 		h3 {
 			font-size: 16px;
+			margin-top: 0;
 
 			@include breakpoint(718px 1200px){
 				font-size: 2vw;
