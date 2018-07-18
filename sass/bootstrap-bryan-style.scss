@@ -102,8 +102,34 @@ body.maintenance-page {
 		text-decoration: none;
 	}
 
+	.campaign-slogan-2 h3,
+	.pane-page-slogan,
+	.pane-page-slogan2 {
+		font-family: 'proxima-nova';
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.campaign-slogan-2 h3:before,
+	.campaign-slogan-2 h3:after {
+	    content: '\00a0 \f24e \00a0';
+	    font-family: FontAwesome;
+	}
+
 	#content {
 		text-align: center;
+	}
+
+	.title-bryan h1, .pane-page-site-name {
+	    font-family: 'eurostile-extended';
+	    font-style: normal;
+	    font-weight: 900;
+	}
+
+	.campaign-slogan-1 h1 {
+	    font-family: 'proxima-nova';
+	    font-style: italic;
+	    font-weight: 900;
 	}
 }
 
@@ -141,11 +167,27 @@ h2 {
 }
 
 h3 {
-    font-size: 24px
+    font-size: 16px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 2vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 24px;
+    }
 }
 
 h4 {
-    font-size: 20px
+    font-size: 14px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 1.6vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 20px;
+    }
 }
 
 h5 {
@@ -474,6 +516,10 @@ td.checkbox, th.checkbox {
     padding: 40px 0 20px;
     text-align: center;
     margin-bottom: 20px;
+
+    p {
+    	font-size: 14px;
+    }
 }
 
 .block {
@@ -769,13 +815,17 @@ ul.menu li.expanded ul {
 	margin: auto;
 	float: none;
 
-	li a {
-		font-size: 1.3vw;
-		padding: 15px 10px;
-		color: #777;
-
-		@include breakpoint(1200px){
-			font-size: 18px;
+	li {
+		margin-right: 1vw;
+		
+		a {
+			font-size: 1.3vw;
+			padding: 15px 0;
+			color: #777;
+	
+			@include breakpoint(1200px){
+				font-size: 18px;
+			}
 		}
 	}
 }
@@ -1982,13 +2032,64 @@ textarea {
 	border-width: 3px;
 }
 .field-name-title-field h1 {
-	margin-top: 0;
+	margin-top: 15px;
 	font-size: 24px;
+	text-align: center;
+
+	@include breakpoint(992px){
+		text-align: left;
+		margin-top: 0;
+	}
 
 	@include breakpoint(718px 1200px){
 		font-size: 3vw;
 	}
 	@include breakpoint(1201px){
 		font-size: 36px;
+	}
+}
+
+.node-type-calendar-item {
+	.field.field-name-field-basic-file-file {
+		text-align: center;
+		margin-bottom: 1em;
+
+		img {
+			display: inline-block;
+			vertical-align: baseline;
+		}
+	}
+
+	#mini-panel-date_time_and_place {
+		background: #003764;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		border: 3px solid #365c8b;
+		padding: 1em;
+	}
+
+	.field-name-field-donation-table {
+		.wt-two-col {
+			text-align: center;
+			display: flex;
+			flex-flow: row wrap;
+			margin: 1em 0;
+		}
+		.wt-col-md-6 {
+			min-height: 0;
+			min-width: 200px;
+			padding: 0;
+			width: auto;
+			flex: 50%;
+
+			p {
+				margin: 0;
+			}
+		}
+	}
+
+	.pane-bundle-map {
+		text-align: center;
 	}
 }
