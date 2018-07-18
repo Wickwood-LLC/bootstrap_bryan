@@ -32,7 +32,7 @@
         topSpacing = $('#admin-menu').height();
 
         $('body').css({
-          "margin-top": '0',
+          "padding-top": '0',
         });
 
         // console.log('Distance from top of page: ' + stickyTop);
@@ -42,14 +42,14 @@
           $header.addClass('sticky-header');
 
           $('body').css({
-            'margin-top': headerHeight + topSpacing + ' !important',
+            'padding-top': headerHeight + topSpacing,
           });
         }
         else {
           $header.removeClass('sticky-header');
 
           $('body').css({
-            'margin-top': '0',
+            'padding-top': '0',
           });
         }
 
@@ -80,14 +80,14 @@
           $header.addClass('sticky-header');
 
           $('body').css({
-            'margin-top': headerHeight + topSpacing + ' !important',
+            'padding-top': headerHeight + topSpacing,
           })
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
 
           $('body').css({
-            'margin-top': '0',
+            'padding-top': '0',
           })
         }
 
