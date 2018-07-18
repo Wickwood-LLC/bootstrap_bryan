@@ -75,8 +75,26 @@ body.maintenance-page {
   height: 100vh; }
   body.maintenance-page a {
     text-decoration: none; }
+  body.maintenance-page .campaign-slogan-2 h3,
+  body.maintenance-page .pane-page-slogan,
+  body.maintenance-page .pane-page-slogan2 {
+    font-family: 'proxima-nova';
+    font-style: normal;
+    font-weight: 300; }
+  body.maintenance-page .campaign-slogan-2 h3:before,
+  body.maintenance-page .campaign-slogan-2 h3:after {
+    content: '\00a0 \f24e \00a0';
+    font-family: FontAwesome; }
   body.maintenance-page #content {
     text-align: center; }
+  body.maintenance-page .title-bryan h1, body.maintenance-page .pane-page-site-name {
+    font-family: 'eurostile-extended';
+    font-style: normal;
+    font-weight: 900; }
+  body.maintenance-page .campaign-slogan-1 h1 {
+    font-family: 'proxima-nova';
+    font-style: italic;
+    font-weight: 900; }
 
 /*Heading*/
 h1,

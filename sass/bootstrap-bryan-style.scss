@@ -102,8 +102,34 @@ body.maintenance-page {
 		text-decoration: none;
 	}
 
+	.campaign-slogan-2 h3,
+	.pane-page-slogan,
+	.pane-page-slogan2 {
+		font-family: 'proxima-nova';
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.campaign-slogan-2 h3:before,
+	.campaign-slogan-2 h3:after {
+	    content: '\00a0 \f24e \00a0';
+	    font-family: FontAwesome;
+	}
+
 	#content {
 		text-align: center;
+	}
+
+	.title-bryan h1, .pane-page-site-name {
+	    font-family: 'eurostile-extended';
+	    font-style: normal;
+	    font-weight: 900;
+	}
+
+	.campaign-slogan-1 h1 {
+	    font-family: 'proxima-nova';
+	    font-style: italic;
+	    font-weight: 900;
 	}
 }
 
