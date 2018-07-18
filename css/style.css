@@ -387,6 +387,8 @@ td.checkbox, th.checkbox {
   padding: 40px 0 20px;
   text-align: center;
   margin-bottom: 20px; }
+  #subfooter p {
+    font-size: 14px; }
 
 .block {
   padding: 15px 0;
