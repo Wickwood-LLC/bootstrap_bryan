@@ -9,7 +9,7 @@
       var $header;
       var topSpacing;
 
-      $header = $('#block-panels-mini-header');
+      $header = $('#header');
       topSpacing = $('#admin-menu').height();
       headerHeight = $header.height();        // gets the height of our header
 
