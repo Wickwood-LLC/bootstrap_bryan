@@ -22,6 +22,7 @@
     </title>
     <?php print $styles; ?>
     <?php print $scripts; ?>
+    <link rel="stylesheet" href="https://use.typekit.net/fzs3blv.css">
 </head>
 
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
