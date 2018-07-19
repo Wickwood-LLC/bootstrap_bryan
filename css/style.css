@@ -734,17 +734,19 @@ ul.menu li.expanded ul {
           font-size: 48px; } }
   #header.sticky-header .pane-page-site-name {
     display: inline-block;
-    font-size: 5vw;
-    margin-left: 0.5em;
+    font-size: 7vw;
     text-indent: 0;
     letter-spacing: normal;
     line-height: 1; }
     @media (min-width: 718px) {
       #header.sticky-header .pane-page-site-name {
-        font-size: 4vw; } }
+        font-size: 4vw;
+        margin-left: 0.5em; } }
     @media (min-width: 1201px) {
       #header.sticky-header .pane-page-site-name {
         font-size: 48px; } }
+  #header.sticky-header #logo img {
+    vertical-align: baseline; }
 
 /*superfish menu arrows*/
 #main-navigation .block-superfish ul.sf-menu > li > a.menuparent {

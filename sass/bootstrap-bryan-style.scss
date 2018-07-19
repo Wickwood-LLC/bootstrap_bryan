@@ -943,18 +943,22 @@ ul.menu li.expanded ul {
 
     .pane-page-site-name {
     	display: inline-block;
-    	font-size: 5vw;
-    	margin-left: 0.5em;
+    	font-size: 7vw;
     	text-indent: 0;
     	letter-spacing: normal;
     	line-height: 1;
 
     	@include breakpoint(718px) {
     		font-size: 4vw;
+    		margin-left: 0.5em;
     	}
     	@include breakpoint(1201px) {
     		font-size: 48px;
     	}
+    }
+
+    #logo img {
+    	vertical-align: baseline;
     }
 }
 
