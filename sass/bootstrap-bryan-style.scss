@@ -1,6 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
+/* MIXINS */
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
 
 /* Reset unusual Firefox-on-Android default style, see https://github.com/necolas/normalize.css/issues/214*/
 
@@ -159,75 +184,33 @@ h6 a {
 }
 
 h1 {
-    font-size: 28px;
-
-    @include breakpoint(718px 1200px){
-    	font-size: 3vw;
-    }
-
-    @include breakpoint(1201px){
-    	font-size: 36px;
-    }
+    font-size: 36px;	// backup size
+    @include fluid-type(718px, 1200px, 28px, 36px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h2 {
-    font-size: 22px;
-
-    @include breakpoint(718px 1200px){
-    	font-size: 2.5vw;
-    }
-
-    @include breakpoint(1201px){
-    	font-size: 30px;
-    }
+    font-size: 30px;
+    @include fluid-type(718px, 1200px, 22px, 30px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h3 {
-    font-size: 16px;
-
-    @include breakpoint(718px 1200px){
-    	font-size: 2vw;
-    }
-
-    @include breakpoint(1201px){
-    	font-size: 24px;
-    }
+    font-size: 24px;
+    @include fluid-type(718px, 1200px, 16px, 24px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h4 {
-    font-size: 14px;
-
-    @include breakpoint(718px 1200px){
-    	font-size: 1.6vw;
-    }
-
-    @include breakpoint(1201px){
-    	font-size: 20px;
-    }
+    font-size: 20px;
+    @include fluid-type(718px, 1200px, 14px, 20px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h5 {
-    font-size: 13px;
-
-    @include breakpoint(718px 1200px){
-    	font-size: 1.3vw;
-    }
-
-    @include breakpoint(1201px){
-    	font-size: 18px;
-    }
+    font-size: 18px;
+    @include fluid-type(718px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h6 {
-    font-size: 12px;
-
-    @include breakpoint(718px 1200px){
-    	font-size: 1vw;
-    }
-
-    @include breakpoint(1201px){
-    	font-size: 16px;
-    }
+    font-size: 16px;
+    @include fluid-type(718px, 1200px, 12px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h1.page-title {
