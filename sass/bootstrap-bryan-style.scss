@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
-@import url("https://use.typekit.net/fzs3blv.css");
 
 
 /* Reset unusual Firefox-on-Android default style, see https://github.com/necolas/normalize.css/issues/214*/
@@ -160,11 +159,27 @@ h6 a {
 }
 
 h1 {
-    font-size: 36px
+    font-size: 28px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 3vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 36px;
+    }
 }
 
 h2 {
-    font-size: 30px
+    font-size: 22px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 2.5vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 30px;
+    }
 }
 
 h3 {
@@ -192,11 +207,27 @@ h4 {
 }
 
 h5 {
-    font-size: 18px
+    font-size: 13px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 1.3vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 18px;
+    }
 }
 
 h6 {
-    font-size: 16px
+    font-size: 12px;
+
+    @include breakpoint(718px 1200px){
+    	font-size: 1vw;
+    }
+
+    @include breakpoint(1201px){
+    	font-size: 16px;
+    }
 }
 
 h1.page-title {
