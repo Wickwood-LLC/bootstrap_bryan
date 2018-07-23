@@ -1627,25 +1627,6 @@ textarea {
     display: inline-block;
     margin: 0 2.5px; }
 
-.front #block-system-main h3 {
-  font-size: 16px;
-  margin-top: 0; }
-  @media (min-width: 718px) and (max-width: 1200px) {
-    .front #block-system-main h3 {
-      font-size: 2vw; } }
-  @media (min-width: 1201px) {
-    .front #block-system-main h3 {
-      font-size: 24px; } }
-
-.front #block-system-main h4 {
-  font-size: 14px; }
-  @media (min-width: 718px) and (max-width: 1200px) {
-    .front #block-system-main h4 {
-      font-size: 1.6vw; } }
-  @media (min-width: 1201px) {
-    .front #block-system-main h4 {
-      font-size: 20px; } }
-
 .front .field-name-field-basic-image-image img {
   border-radius: 10px;
   border-style: solid;
@@ -1660,18 +1641,11 @@ textarea {
 
 .field-name-title-field h1 {
   margin-top: 15px;
-  font-size: 24px;
   text-align: center; }
   @media (min-width: 992px) {
     .field-name-title-field h1 {
       text-align: left;
       margin-top: 0; } }
-  @media (min-width: 718px) and (max-width: 1200px) {
-    .field-name-title-field h1 {
-      font-size: 3vw; } }
-  @media (min-width: 1201px) {
-    .field-name-title-field h1 {
-      font-size: 36px; } }
 
 .node-type-calendar-item .field.field-name-field-basic-file-file {
   text-align: center;

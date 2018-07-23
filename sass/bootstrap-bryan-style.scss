@@ -2093,29 +2093,6 @@ textarea {
 }
 
 .front {
-	#block-system-main {
-		h3 {
-			font-size: 16px;
-			margin-top: 0;
-
-			@include breakpoint(718px 1200px){
-				font-size: 2vw;
-			}
-			@include breakpoint(1201px){
-				font-size: 24px;
-			}
-		}
-		h4 {
-			font-size: 14px;
-
-			@include breakpoint(718px 1200px){
-				font-size: 1.6vw;
-			}
-			@include breakpoint(1201px){
-				font-size: 20px;
-			}
-		}
-	}
 	.field-name-field-basic-image-image img {
 		border-radius: 10px;
 		border-style: solid;
@@ -2132,19 +2109,11 @@ textarea {
 }
 .field-name-title-field h1 {
 	margin-top: 15px;
-	font-size: 24px;
 	text-align: center;
 
 	@include breakpoint(992px){
 		text-align: left;
 		margin-top: 0;
-	}
-
-	@include breakpoint(718px 1200px){
-		font-size: 3vw;
-	}
-	@include breakpoint(1201px){
-		font-size: 36px;
 	}
 }
 
