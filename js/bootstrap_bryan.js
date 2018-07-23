@@ -64,14 +64,12 @@
               top: topSpacing,
             });
 
-            $(".pane-page-site-name").appendTo("#mini-panel-header .panel-col .inside > div"); // insert "Clenahan" after "Bryan"
           }
           else {
             $header.css({
               top: '0',
             });
 
-            $(".pane-page-site-name").prependTo("#mini-panel-header .panel-col-bottom .inside > div"); // return "Clenahan" to its original location
           }
         }
 
@@ -110,14 +108,12 @@
               top: topSpacing,
             });   //stick it at the top
 
-            $(".pane-page-site-name").appendTo("#mini-panel-header .panel-col .inside > div"); // insert "Clenahan" after "Bryan"
           }
           else {
             $header.css({
               top: '0',
             });
 
-            $(".pane-page-site-name").prependTo("#mini-panel-header .panel-col-bottom .inside > div"); // return "Clenahan" to its original location
           }
         }
 

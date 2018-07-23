@@ -11,7 +11,7 @@
  * @see bartik_process_maintenance_page()
  */
 ?>
-    <!DOCTYPE html>
+    <!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
 
     <head>
